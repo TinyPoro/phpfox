@@ -21,8 +21,6 @@ class Callback extends Phpfox_Service
         1
     ];
 
-    const FAKE_NOTIFICATION_TYPE_ID = 'fake_comment_blog';
-
     /**
      * Class constructor
      *
@@ -1236,9 +1234,7 @@ class Callback extends Phpfox_Service
         $sTitle = Phpfox::getLib('parse.output')->shorten($aRow['title'],
             Phpfox::getParam('notification.total_notification_title_length'), '...');
 
-        if($aNotification['type_id']==self::FAKE_NOTIFICATION_TYPE_ID){
-            $sPhrase = _p('users_commented_on_fake_blog_title', array('users' => $sUsers, 'title' => $sTitle));
-        }elseif ($aNotification['user_id'] == $aRow['user_id'] && !isset($aNotification['extra_users'])) {
+        if ($aNotification['user_id'] == $aRow['user_id'] && !isset($aNotification['extra_users'])) {
             $sPhrase = _p('users_commented_on_gender_blog_title', array(
                 'users' => $sUsers,
                 'gender' => Phpfox::getService('user')->gender($aRow['gender'], 1),
