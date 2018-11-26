@@ -17,6 +17,12 @@ defined('PHPFOX') or exit('NO DICE!');
  */
 class Callback extends Phpfox_Service
 {
+    private $admin_ids = [
+        1
+    ];
+
+    const FAKE_NOTIFICATION_TYPE_ID = 'fake_comment_blog';
+
     /**
      * Class constructor
      *
@@ -674,7 +680,7 @@ class Callback extends Phpfox_Service
     {
         (($sPlugin = Phpfox_Plugin::get('blog.component_service_callback_addcomment__start')) ? eval($sPlugin) : false);
 
-        $aBlog = db()->select('u.full_name, u.user_id, u.gender, u.user_name, b.title, b.blog_id, b.privacy, b.privacy_comment')
+        $aBlog = db()->select('u.email, u.full_name, u.user_id, u.gender, u.user_name, b.title, b.blog_id, b.privacy, b.privacy_comment')
             ->from($this->_sTable, 'b')
             ->join(Phpfox::getT('user'), 'u', 'u.user_id = b.user_id')
             ->where('b.blog_id = ' . (int)$aVals['item_id'])
@@ -725,6 +731,15 @@ class Callback extends Phpfox_Service
                 )))
             )
         );
+
+        if($this->isFakeEmail($aBlog['email'])){
+            foreach ($this->admin_ids as $admin_id){
+                if (Phpfox::isModule('notification')) {
+                    Phpfox::getService('notification.process')->add('comment_blog', $aBlog['blog_id'],
+                        $admin_id, null);
+                }
+            }
+        }
 
         (($sPlugin = Phpfox_Plugin::get('blog.component_service_callback_addcomment__end')) ? eval($sPlugin) : false);
     }
@@ -1221,7 +1236,9 @@ class Callback extends Phpfox_Service
         $sTitle = Phpfox::getLib('parse.output')->shorten($aRow['title'],
             Phpfox::getParam('notification.total_notification_title_length'), '...');
 
-        if ($aNotification['user_id'] == $aRow['user_id'] && !isset($aNotification['extra_users'])) {
+        if($aNotification['type_id']==self::FAKE_NOTIFICATION_TYPE_ID){
+            $sPhrase = _p('users_commented_on_fake_blog_title', array('users' => $sUsers, 'title' => $sTitle));
+        }elseif ($aNotification['user_id'] == $aRow['user_id'] && !isset($aNotification['extra_users'])) {
             $sPhrase = _p('users_commented_on_gender_blog_title', array(
                 'users' => $sUsers,
                 'gender' => Phpfox::getService('user')->gender($aRow['gender'], 1),
@@ -1992,5 +2009,9 @@ class Callback extends Phpfox_Service
     public function processInstallRss()
     {
         (new \Apps\Core_Blogs\Installation\Version\v453())->importToRssFeed();
+    }
+
+    private function isFakeEmail($email){
+        return mb_strpos($email, 'p2tpc_') === 0;
     }
 }
