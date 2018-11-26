@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cbfe55ea-d379-4532-bc70-86958f6cb059" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PF.Base/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PF.Base/module/user/include/service/api.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="488" column="9" selection-start-line="488" selection-start-column="9" selection-end-line="488" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callback.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service/Callback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="707" column="34" selection-start-line="707" selection-start-column="34" selection-end-line="707" selection-end-column="34" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PF.Base/module/comment/include/service/process.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="627" column="56" selection-start-line="627" selection-start-column="49" selection-end-line="627" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>You cannot register an account with an access token of an user.</find>
+      <find>disable_username_on_sign_up</find>
+      <find>provide_your_full_name</find>
+      <find>-&gt;getValidation</find>
+      <find>restfull</find>
+      <find>/user</find>
+      <find>access_token</find>
+      <find>image_path</find>
+      <find>restful_api</find>
+      <find>start.php</find>
+      <find>Phpfox::getService('groups')</find>
+      <find>Apps\PHPfox_Groups\Service</find>
+      <find>getService('group</find>
+      <find>getService('groups.b</find>
+      <find>-&gt;getBrowse</find>
+      <find>PHPFOX_IS_AJAX_PAGE</find>
+      <find>comment</find>
+      <find>'notification.process'</find>
+      <find>full_name_commented_on_your_blog_message</find>
+      <find>full_name_commented_on_blog_full_name_s_blog</find>
+      <find>function notify</find>
+      <find>user_id</find>
+      <find>addComment</find>
+      <find>COMMENT_FORCE_USER_ID</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/PF.Base</dir>
+      <dir>$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service</dir>
+      <dir>$PROJECT_DIR$/PF.Site/Apps/core-blogs</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PF.Base/file/settings/server.sett.php" />
+        <option value="$PROJECT_DIR$/PF.Base/module/user/include/service/register.class.php" />
+        <option value="$PROJECT_DIR$/PF.Base/module/user/include/component/controller/register.class.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/core-restful-api/start.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/PF.Src/Core/View.php" />
+        <option value="$PROJECT_DIR$/PF.Base/start.php" />
+        <option value="$PROJECT_DIR$/PF.Base/include/library/phpfox/phpfox/phpfox.class.php" />
+        <option value="$PROJECT_DIR$/PF.Base/module/user/include/service/api.class.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/Install.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/views/controller/add.html.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/Controller/AddController.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/Service/Browser.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/start.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/views/controller/index.html.php" />
+        <option value="$PROJECT_DIR$/PF.Base/file/settings/debug.sett.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/PF.Base/module/comment/include/service/process.class.php" />
+        <option value="$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service/Callback.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/PF.Site/Apps/core-im/server/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/PF.Base/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/wixel/gump" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/dereuromark/media-embed" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/matthiasmullie/minify" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/matthiasmullie/path-converter" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/composer" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/phpfastcache/phpfastcache" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/oyejorge/less.php" />
+      <path value="$PROJECT_DIR$/PF.Base/vendor/filp/whoops" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="19" />
+    <option name="y" value="50" />
+    <option name="width" value="1366" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Site" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Site" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="core-blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Site" type="462c0819:PsiDirectoryNode" />
+              <item name="Apps" type="462c0819:PsiDirectoryNode" />
+              <item name="core-blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Src" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="phpfox4.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phpfox4.7" type="462c0819:PsiDirectoryNode" />
+              <item name="PF.Src" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file:///Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php&#10;s&#9;FILE&#9;file:///Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PF.Site/Apps/TestAppId/views/controller" />
+      <recent name="$PROJECT_DIR$/PF.Site/Apps/TestAppId/Controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbfe55ea-d379-4532-bc70-86958f6cb059" name="Default" comment="" />
+      <created>1542618554532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542618554532</updated>
+      <workItem from="1542618558512" duration="1143000" />
+      <workItem from="1542622430960" duration="1464000" />
+      <workItem from="1542686190587" duration="10000" />
+      <workItem from="1542686590694" duration="65000" />
+      <workItem from="1542708073240" duration="583000" />
+      <workItem from="1542717048160" duration="6462000" />
+      <workItem from="1542772340577" duration="455000" />
+      <workItem from="1542774038891" duration="57000" />
+      <workItem from="1542787254421" duration="4445000" />
+      <workItem from="1542801936037" duration="810000" />
+      <workItem from="1543026461964" duration="3696000" />
+      <workItem from="1543032834267" duration="8690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27880000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="19" y="50" width="1366" height="754" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19486405" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1918429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25114155" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/error_500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/file/settings/server.sett.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="225" column="9" selection-start-line="225" selection-start-column="9" selection-end-line="225" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/file/settings/server.sett.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Database/Apps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Database/Database.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Database/UploadTemp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Engine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/module/user/include/component/controller/register.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/module/user/include/service/register.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-restful-api/docs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2325">
+            <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-restful-api/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core/start.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Route/RouteUrl.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Route/Module.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Route/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Route/Group.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Route/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Api/User/Objects.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Api/Like.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Api/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-groups/Service/Groups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11407">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/Api/ApiServiceBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-groups/Service/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="79" column="41" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9450">
+          <caret line="630" column="17" selection-start-line="630" selection-start-column="17" selection-end-line="630" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Src/Core/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="295" column="53" selection-start-line="295" selection-start-column="46" selection-end-line="295" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/include/library/phpfox/phpfox/phpfox.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25050">
+          <caret line="1672" column="28" selection-start-line="1672" selection-start-column="17" selection-end-line="1672" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/include/setting/constant.sett.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="144" column="1" selection-start-line="144" selection-end-line="144" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/assets/main.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/assets/autoload.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Ajax/Ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Block/Feed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Controller/Admin/AddCategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service/Api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4481" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/Install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/views/controller/add.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/file/settings/debug.sett.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/Service/Browser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/views/controller/index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/Controller/AddController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/TestAppId/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="95" selection-end-column="12" />
+          <folding>
+            <element signature="e#45#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/module/user/include/service/api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="488" column="9" selection-start-line="488" selection-start-column="9" selection-end-line="488" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Base/module/comment/include/service/process.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="627" column="56" selection-start-line="627" selection-start-column="49" selection-end-line="627" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service/Callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="707" column="34" selection-start-line="707" selection-start-column="34" selection-end-line="707" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,734 @@
+# stream loggererror
+2018-11-21 08:05:08
+[256] Calling a Service from an invalid Module. Make sure the module is valid or set to active. (::) (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: cba520
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Calling a Service from an invali...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(998): Phpfox_Error::trigger('Calling a Service from an invali...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService(, )
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(336): Phpfox::getService()
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#7 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#8 {main}
+
+
+error
+2018-11-21 09:52:09
+[256] Calling a Service from an invalid Module. Make sure the module is valid or set to active. (group::browse) (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 06584c
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Calling a Service from an invali...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(998): Phpfox_Error::trigger('Calling a Service from an invali...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('group.browse', )
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(491): Phpfox::getService('group.browse')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#9 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#10 {main}
+
+
+error
+2018-11-21 09:52:34
+[256] Calling a Service from an invalid Module. Make sure the module is valid or set to active. (group::group) (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 67215a
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Calling a Service from an invali...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(998): Phpfox_Error::trigger('Calling a Service from an invali...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('group', )
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(491): Phpfox::getService('group')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#9 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#10 {main}
+
+
+error
+2018-11-21 09:54:00
+[256] Calling a Service from an invalid Module. Make sure the module is valid or set to active. (group::group) (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 777eb8
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Calling a Service from an invali...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(998): Phpfox_Error::trigger('Calling a Service from an invali...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('group', )
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(491): Phpfox::getService('group')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#9 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#10 {main}
+
+
+error
+2018-11-21 09:54:03
+[256] Call to undefined method Phpfox_Pages_Pages::get() (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 688acd
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Call to undefined method Phpfox_...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/pages/pages.class.php(533): Phpfox_Error::trigger('Call to undefined method Phpfox_...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(492): Phpfox_Pages_Pages->__call('get', Array)
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#8 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#9 {main}
+
+
+error
+2018-11-21 09:54:04
+[256] Call to undefined method Phpfox_Pages_Pages::get() (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 20c0e1
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Call to undefined method Phpfox_...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/pages/pages.class.php(533): Phpfox_Error::trigger('Call to undefined method Phpfox_...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(492): Phpfox_Pages_Pages->__call('get', Array)
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#8 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#9 {main}
+
+
+error
+2018-11-21 09:54:04
+[256] Call to undefined method Phpfox_Pages_Pages::get() (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 3ce87e
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Call to undefined method Phpfox_...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/pages/pages.class.php(533): Phpfox_Error::trigger('Call to undefined method Phpfox_...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(492): Phpfox_Pages_Pages->__call('get', Array)
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#8 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#9 {main}
+
+
+error
+2018-11-21 09:54:13
+[256] Call to undefined method Phpfox_Pages_Browse::get() (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: a66624
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Call to undefined method Phpfox_...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/pages/browse.class.php(82): Phpfox_Error::trigger('Call to undefined method Phpfox_...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(492): Phpfox_Pages_Browse->__call('get', Array)
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#8 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#9 {main}
+
+
+error
+2018-11-21 09:54:17
+[256] Calling a Service from an invalid Module. Make sure the module is valid or set to active. (group::browse) (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 2dac73
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Calling a Service from an invali...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(998): Phpfox_Error::trigger('Calling a Service from an invali...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('group.browse', )
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(491): Phpfox::getService('group.browse')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#9 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#10 {main}
+
+
+error
+2018-11-21 09:56:05
+Error Code: 76e941
+Error: Cannot use object of type Apps\PHPfox_Groups\Service\Browse as array in /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php:491
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Object(Core\Route\RouteUrl), Object(Apps\phpFox_RESTful_API\Service\RestApiTransport), 'gets')
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#5 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/M...')
+#6 {main}
+
+error
+2018-11-21 09:56:35
+[256] Call to undefined method Phpfox_Pages_Browse::get() (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: c090ea
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Call to undefined method Phpfox_...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/pages/browse.class.php(82): Phpfox_Error::trigger('Call to undefined method Phpfox_...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/module/user/include/service/api.class.php(491): Phpfox_Pages_Browse->__call('get', Array)
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Api/ApiServiceBase.php(204): User_Service_Api->gets(Array)
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/Route/Controller.php(347): Core\Api\ApiServiceBase->process(Core\Route\RouteUrl, Apps\phpFox_RESTful_API\Service\RestApiTransport, 'gets')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(389): Core\Route\Controller->get()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1587): Phpfox_Module->setController()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#8 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#9 {main}
+
+
+error
+2018-11-24 03:42:17
+[256] Unable to load module template: todo->controller/index (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 2a896e
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to load module template: ...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2772): Phpfox_Error::trigger('Unable to load module template: ...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2830): Phpfox_Template->getTemplateFile('todo.controller.index')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(643): Phpfox_Template->getTemplate('todo.controller.index')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/View.php(220): Phpfox_Module->getControllerTemplate()
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(2027): Core\View->getContent()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#7 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#8 {main}
+
+
+error
+2018-11-24 03:42:33
+[256] Unable to load module template: todo->controller/index (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 572ebc
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to load module template: ...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2772): Phpfox_Error::trigger('Unable to load module template: ...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2830): Phpfox_Template->getTemplateFile('todo.controller.index')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(643): Phpfox_Template->getTemplate('todo.controller.index')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/View.php(220): Phpfox_Module->getControllerTemplate()
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(2027): Core\View->getContent()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#7 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#8 {main}
+
+
+error
+2018-11-24 03:42:36
+[256] Unable to load module template: todo->controller/index (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 4fdcbd
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to load module template: ...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2772): Phpfox_Error::trigger('Unable to load module template: ...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2830): Phpfox_Template->getTemplateFile('todo.controller.index')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(643): Phpfox_Template->getTemplate('todo.controller.index')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/View.php(220): Phpfox_Module->getControllerTemplate()
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(2027): Core\View->getContent()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#7 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#8 {main}
+
+
+error
+2018-11-24 03:50:19
+[256] Unable to load module template: todo->controller/index (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 5a3d3a
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to load module template: ...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2772): Phpfox_Error::trigger('Unable to load module template: ...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2830): Phpfox_Template->getTemplateFile('todo.controller.index')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(643): Phpfox_Template->getTemplate('todo.controller.index')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/View.php(220): Phpfox_Module->getControllerTemplate()
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(2027): Core\View->getContent()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#7 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#8 {main}
+
+
+error
+2018-11-24 03:51:30
+[256] Unable to load module template: todo->controller/index (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: ee2a5f
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to load module template: ...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2772): Phpfox_Error::trigger('Unable to load module template: ...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/template/template.class.php(2830): Phpfox_Template->getTemplateFile('todo.controller.index')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(643): Phpfox_Template->getTemplate('todo.controller.index')
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Src/Core/View.php(220): Phpfox_Module->getControllerTemplate()
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(2027): Core\View->getContent()
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#7 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#8 {main}
+
+
+error
+2018-11-24 04:32:10
+Error Code: 4910dc
+Error: Class 'Apps\TestAppId\Controller\Phpfox' not found in /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php:69
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\\TestAppId\\...', Array, 'controller')
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#4 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/M...')
+#5 {main}
+
+error
+2018-11-24 04:32:54
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 7493a9
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:32:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: b31fbd
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:32:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 696a99
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:32:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: d3670d
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:32:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: ff2a49
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:32:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 2936d7
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:32:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 53df8d
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:29
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 398c0d
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:31
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: d69c77
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:31
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 2ecddf
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:31
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: cd343f
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:31
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: f3c158
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:32
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 0e9406
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:32
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: ce1c17
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:32
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 5307fb
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:33:32
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: da02c9
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:35:39
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: dffeea
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:35:44
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 6b8a95
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:40:04
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 55e245
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(77): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:41:56
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 3e2fae
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(77): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:42:41
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 38878f
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:42:42
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 8efe13
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 04:52:31
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 6ac751
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+
+error
+2018-11-24 05:04:30
+[256] Unable to call class: Apps\TestAppId\Service\Browse (/Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php) [99]
+Error Code: 2e7294
+Stack trace:
+#0 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/error/error.class.php(99): trigger_error('Unable to call class: Apps\TestA...', 256)
+#1 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(350): Phpfox_Error::trigger('Unable to call class: Apps\TestA...', 256)
+#2 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(986): Phpfox::getObject('Apps\TestAppId\Service\Browse')
+#3 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(795): Phpfox_Module->getService('todo.browse', )
+#4 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/search/browse.class.php(86): Phpfox::getService('todo.browse')
+#5 /Applications/MAMP/htdocs/phpfox4.7/PF.Site/Apps/TestAppId/Controller/IndexController.php(76): Phpfox_Search_Browse->params(Array)
+#6 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(1177): Apps\TestAppId\Controller\IndexController->process()
+#7 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/module/module.class.php(590): Phpfox_Module->getComponent('Apps\TestAppId\Controller\IndexC...', Array, 'controller')
+#8 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/include/library/phpfox/phpfox/phpfox.class.php(1656): Phpfox_Module->getController()
+#9 /Applications/MAMP/htdocs/phpfox4.7/PF.Base/start.php(631): Phpfox::run()
+#10 /Applications/MAMP/htdocs/phpfox4.7/index.php(9): require('/Applications/MAMP/htdocs/phpfox...')
+#11 {main}
+
+

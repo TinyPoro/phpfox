@@ -1,0 +1,22 @@
+{
+  "mail_friend_title" : "friend",
+  "mail_custom_list_title" : "custom list",
+  "mail_contacts" : "{number} contacts",
+  "mail_contact" : "{number} contact",
+  "mail_lists" : "Lists",
+  "mail_sent_an_attachment" : "sent an attachment",
+  "mail_sent_attachments" : "sent {number} attachments",
+  "mail_sent_a_photo" : "sent a photo",
+  "mail_sent_photos" : "sent {number} photos",
+  "mail_send_your_reply" : "Send your reply...",
+  "mail_can_do_this_action" : "Can not do this action with invalid conversation",
+  "mail_unarchive" : "Un-archive",
+  "mail_unspam" : "Un-spam",
+  "mail_manage_conversation" : "Manage Conversations",
+  "mail_app_title" : "Messages",
+  "mail_mark_as_read" : "Mark as read",
+  "mail_invalid_conversation" : "Invalid conversation.",
+  "mail_group_member" : "Group Members",
+  "mail_do_action_with_invalid_messages" : "Can do this action with invalid messages(s)",
+  "mail_do_not_have_permission_to_delete_message" : "You do not have permission for deleting message(s)"
+}
