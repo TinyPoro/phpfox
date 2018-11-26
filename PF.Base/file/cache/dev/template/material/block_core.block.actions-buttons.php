@@ -1,5 +1,5 @@
 <?php defined('PHPFOX') or exit('NO DICE!'); ?>
-<?php /* Cached: November 26, 2018, 2:39 am */ ?>
+<?php /* Cached: November 26, 2018, 8:24 am */ ?>
 <?php if (( ( isset ( $this->_aVars['aSubMenus'] ) && count ( $this->_aVars['aSubMenus'] ) || isset ( $this->_aVars['aCustomMenus'] ) ) ) && Phpfox ::isUser() && empty ( $this->_aVars['bNotShowActionButton'] )): ?>
 <div class="app-addnew-block">
     <div class="btn-app-addnew">

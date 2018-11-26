@@ -1,5 +1,5 @@
 <?php defined('PHPFOX') or exit('NO DICE!'); ?>
-<?php /* Cached: November 26, 2018, 3:21 am */ ?>
+<?php /* Cached: November 26, 2018, 8:24 am */ ?>
 <?php if (empty ( $this->_aVars['aUploadCallback']['component_only'] )): ?>
 <div class="form-group js_upload_form_wrapper <?php if (! empty ( $this->_aVars['sCurrentPhoto'] )): ?>show-current<?php endif; ?>" id="js_upload_form_<?php echo $this->_aVars['sType']; ?>_wrapper" data-type="<?php echo $this->_aVars['sType']; ?>">
 <?php if (! empty ( $this->_aVars['aUploadCallback']['label'] )): ?>
