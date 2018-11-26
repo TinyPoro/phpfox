@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbfe55ea-d379-4532-bc70-86958f6cb059" name="Default" comment="" />
+    <list default="true" id="cbfe55ea-d379-4532-bc70-86958f6cb059" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Callback.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Callback.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service/Callback.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
@@ -32,6 +34,15 @@
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -71,8 +82,8 @@
       <find>full_name_commented_on_blog_full_name_s_blog</find>
       <find>function notify</find>
       <find>user_id</find>
-      <find>addComment</find>
       <find>COMMENT_FORCE_USER_ID</find>
+      <find>addComment</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -83,6 +94,9 @@
       <dir>$PROJECT_DIR$/PF.Site/Apps/core-blogs</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -106,6 +120,7 @@
         <option value="$PROJECT_DIR$/PF.Site/Apps/TestAppId/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/PF.Base/module/comment/include/service/process.class.php" />
         <option value="$PROJECT_DIR$/PF.Site/Apps/core-blogs/Service/Callback.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -156,6 +171,7 @@
     <option name="width" value="1366" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -267,12 +283,12 @@
       <workItem from="1542787254421" duration="4445000" />
       <workItem from="1542801936037" duration="810000" />
       <workItem from="1543026461964" duration="3696000" />
-      <workItem from="1543032834267" duration="8690000" />
+      <workItem from="1543032834267" duration="8822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27880000" />
+    <option name="totallyTimeSpent" value="28012000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -285,14 +301,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="50" width="1366" height="754" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32876712" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19486405" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19486405" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -335,13 +352,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/error_500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -637,6 +647,13 @@
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
